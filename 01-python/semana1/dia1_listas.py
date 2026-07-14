@@ -26,18 +26,6 @@ print(f"Lista ordenada: {linguagens}")
 primeiras_linguagens = linguagens[:3]
 print(f"Primeiras linguagens: {primeiras_linguagens}")
 
-## 6.	Crie uma tupla com (nome, idade, cidade) e faça desempacotamento em 3 variáveis
-nome, idade, cidade = ("Derick", 30, "Rio de Janeiro")
-print(f"Nome: {nome}, Idade: {idade}, Cidade: {cidade}")
-
-## 7.	Tente modificar a tupla e leia o erro — entenda o que significa TypeError
-
-cursos = ("Python", "JavaScript", "Java")
-try:
-    cursos[0] = "C#"
-except TypeError as e:
-    print(f"Erro ao tentar modificar a tupla: {e}")
-
 
 # frutas = [ "maça", "banana", "uva", "morango", "abacaxi", "laranja", "kiwi", "melancia"]
 
