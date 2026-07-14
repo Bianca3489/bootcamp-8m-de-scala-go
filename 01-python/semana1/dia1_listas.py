@@ -1,10 +1,14 @@
+# Listas em Python
+# Listas são estruturas de dados mutáveis, ou seja,seus elementos podem ser alterados após a criação.
+# São definidas usando colchetes [] e podem conter elementos de diferentes tipos.
+# São úteis quando você deseja armazenar uma coleção de itens que podem mudar ao longo do tempo
+
+
 ## •	Lista: coleção ordenada e mutável — frutas = [ "maça", "banana", "uva", "morango", "abacaxi", "laranja", "kiwi", "melancia"]
 ## •	Indexação: frutas[0] → "maçã" / frutas[-1] → "uva" (negativo conta do fim)
 ## •	Fatiamento: frutas[0:2] → ["maçã", "banana"] / frutas[::2] → de 2 em 2
 ## •	Métodos essenciais: append(x), pop(), pop(i), insert(i,x), sort(), reverse(), len(), count(x), index(x)
-## •	Tupla: coleção ordenada e IMUTÁVEL — ponto = (10, 20). Tente modificar e veja o TypeError
-## •	Quando usar tupla: coordenadas, configurações fixas, retorno múltiplo de funções, chaves de dicionário
-## •	Desempacotamento: x, y = (10, 20) — funciona em listas e tuplas
+
 
 ## Complete cada exercício antes de avançar para o próximo:
 ## 1.	Crie uma lista com 5 linguagens de programação que você conhece
